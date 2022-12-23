@@ -1,13 +1,9 @@
-//import logo from './logo.svg';
-import '../style/Home.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <h1> Hello !!</h1>
-      <p> Juste un teste</p>
-    </div>
-  );
+function Home() {
+	return (
+		<h1> Hello Home</h1>
+	);
 }
 
-export default App;
+export default Home;
