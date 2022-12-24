@@ -15,8 +15,8 @@ header {
       padding-bottom: 5px;
       font-family: 'Montserrat';
 
-      &:hover,
-      &:focus {
+      &:active,
+      &:hover {
         text-decoration: underline;
       }
     }

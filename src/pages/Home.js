@@ -1,9 +1,7 @@
 import React from 'react';
+import Banner from '../components/Banner.js';
 
 function Home() {
-	return (
-		<h1> Hello Home</h1>
-	);
+	return <Banner location='home' />;
 }
-
 export default Home;

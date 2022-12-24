@@ -1,7 +1,8 @@
 import React from 'react';
+import Banner from '../components/Banner';
 function Apropos() {
 	return (
-		<h1>  a propos</h1>
+		<Banner location='apropos' />
 	);
 }
 export default Apropos;
