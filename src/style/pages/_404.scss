@@ -1,0 +1,25 @@
+#main-error {
+  padding: 20px 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $primary;
+    h1 {
+      font-weight: 700;
+      font-size: 288px;
+      line-height: 60px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 100px;
+      a {
+        font-weight: 500;
+        font-size: 18px;
+        color: $primary;
+      }
+    }
+  }
+}
