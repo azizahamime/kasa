@@ -5,7 +5,9 @@ export default function Card({ title, cover }) {
 
 		<div className="card" >
 			<img src={cover} alt={title} className='card-image' />
-			<h4 className='card-title'>{title}</h4>
+			<div className='overlay'>
+				<h4 className='card-title'>{title}</h4>
+			</div>
 		</div>
 
 	);
