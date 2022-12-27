@@ -1,0 +1,17 @@
+.dropdown {
+  .dropdown-title {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: $primary;
+  }
+  .dropdown-content {
+    padding: 20px;
+    color: $primary;
+    background-color: $secondary;
+    border-radius: 0 0 5px 5px;
+    display: none;
+  }
+}
