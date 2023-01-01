@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import bannerHome from '../assets/banner-home.png';
-import bannerApropos from '../assets/banner-apropos.png';
+import bannerHome from '../../assets/banner-home.png';
+import bannerApropos from '../../assets/banner-apropos.png';
 
 function Banner({ location }) {
 

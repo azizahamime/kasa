@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 
-import Header from './Header';
-import Home from '../pages/Home';
-import Apropos from '../pages/Apropos';
-import Error from '../pages/404';
-import Footer from './Footer';
+import Header from './Header/Header';
+import Home from '../pages/Home/Home';
+import Apropos from '../pages/Apropos/Apropos';
+import Error from '../pages/404/404';
+import Footer from './Footer/Footer';
 
 function Routers() {
 	const [data, setData] = useState([]);
@@ -14,7 +14,7 @@ function Routers() {
 		axios
 			.get('/logements.json')
 			.then(result => setData(result.data));
-	});
+	}, []);
 	return (
 		<Router>
 			<Header />

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import Banner from '../components/Banner';
-import dataAbout from '../components/About.json';
-import Collapse from '../components/Collapse';
+import Banner from '../../components/Banner/Banner';
+import dataAbout from './About.json';
+import Collapse from '../../components/Collapse/Collapse';
 
 function Apropos() {
 	return (

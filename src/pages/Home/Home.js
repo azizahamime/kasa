@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import Banner from '../components/Banner.js';
-import Card from '../components/Card.js';
+import Banner from '../../components/Banner/Banner.js';
+import Card from '../../components/Card/Card';
 
 function Home({ homesList }) {
 
