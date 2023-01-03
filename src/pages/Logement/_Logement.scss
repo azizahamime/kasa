@@ -1,0 +1,36 @@
+.information {
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .house {
+      color: $primary;
+      font-weight: 500;
+      &-title {
+        font-size: 36px;
+        line-height: 51px;
+      }
+      &-location {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+    .host {
+      &-infos {
+        display: flex;
+        &__name {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          color: $primary;
+          width: 50px;
+        }
+        &__photo {
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

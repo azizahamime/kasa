@@ -1,0 +1,15 @@
+.tags {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+  padding: 20px 0;
+  li {
+    background-color: $primary;
+    color: #fff;
+    padding: 3px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
