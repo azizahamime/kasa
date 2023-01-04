@@ -5,12 +5,15 @@ import Carrousel from '../../components/Carrousel/Carrousel';
 import Rating from '../../components/Rating/Rating';
 import Tag from '../../components/Tags/Tag';
 import Collapse from '../../components/Collapse/Collapse';
+import Error from '../404/404';
 
 
 export default function Logement(props) {
 	const { logId } = useParams();
 	const location = props.locationList.filter((el) => el.id === logId).shift();
-	console.log(location.pictures);
+	if (location === undefined) {
+		return <Error />;
+	}
 	return (
 		<Fragment>
 			<Carrousel images={location.pictures} title={location.title} />
