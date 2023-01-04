@@ -18,6 +18,9 @@
     .host {
       &-infos {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 20px;
         &__name {
           font-weight: 500;
           font-size: 18px;
@@ -30,6 +33,16 @@
           height: 64px;
           border-radius: 50%;
         }
+      }
+    }
+  }
+  .content {
+    padding: 50px 0;
+    .container {
+      display: flex;
+      column-gap: 60px;
+      .dropdown {
+        width: 50%;
       }
     }
   }

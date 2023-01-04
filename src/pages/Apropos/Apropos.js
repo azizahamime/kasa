@@ -11,7 +11,9 @@ function Apropos() {
 				<div className='container'>
 					<div className='about'>
 						{dataAbout.map((data, index) => (
-							<Collapse key={index} title={data.title} description={data.description} />
+							<Collapse key={index} title={data.title} >
+								<p> {data.description}</p>
+							</Collapse>
 						))}
 					</div>
 				</div>

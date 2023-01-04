@@ -2,7 +2,10 @@
 import React, { Fragment } from 'react';
 import { useParams } from 'react-router-dom';
 import Carrousel from '../../components/Carrousel/Carrousel';
+import Rating from '../../components/Rating/Rating';
 import Tag from '../../components/Tags/Tag';
+import Collapse from '../../components/Collapse/Collapse';
+
 
 export default function Logement(props) {
 	const { logId } = useParams();
@@ -23,6 +26,23 @@ export default function Logement(props) {
 							<p className='host-infos__name'>{location.host.name}</p>
 							<img src={location.host.picture} alt={location.host.name} className="host-infos__photo" />
 						</div>
+						<Rating rating={location.rating} />
+					</div>
+
+				</div>
+				<div className='content'>
+					<div className='container'>
+						<Collapse title='Description' >
+							<div> {location.description}</div>
+						</Collapse>
+						<Collapse title='Equipements'>
+							<ul>
+								{location.equipments.map((el, index) => (
+									<li key={index}>{el}</li>
+								))}
+							</ul>
+						</Collapse>
+
 					</div>
 				</div>
 			</div>
