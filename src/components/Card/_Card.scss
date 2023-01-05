@@ -2,6 +2,9 @@
   position: relative;
   width: 100%;
   height: 350px;
+  @media (max-width: 686px) {
+    height: 200px;
+  }
 
   .card-image {
     object-fit: cover;
