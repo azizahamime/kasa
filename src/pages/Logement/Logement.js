@@ -38,7 +38,7 @@ export default function Logement(props) {
 						<Collapse title='Description' >
 							<div> {location.description}</div>
 						</Collapse>
-						<Collapse title='Equipements'>
+						<Collapse title='Équipements'>
 							<ul>
 								{location.equipments.map((el, index) => (
 									<li key={index}>{el}</li>

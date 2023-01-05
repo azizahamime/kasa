@@ -3,6 +3,9 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    @media (max-width: 1250px) {
+      flex-direction: column;
+    }
     .house {
       color: $primary;
       font-weight: 500;
@@ -16,11 +19,27 @@
       }
     }
     .host {
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 1250px) {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .star {
+        @media (max-width: 1250px) {
+          order: 1;
+        }
+      }
       &-infos {
         display: flex;
         align-items: center;
         justify-content: space-between;
         column-gap: 20px;
+        @media (max-width: 1250px) {
+          order: 2;
+        }
+
         &__name {
           font-weight: 500;
           font-size: 18px;
@@ -40,9 +59,12 @@
     padding: 50px 0;
     .container {
       display: flex;
-      column-gap: 60px;
+      gap: 20px 60px;
       .dropdown {
         width: 50%;
+        @media (max-width: 1250px) {
+          width: 100%;
+        }
       }
     }
   }
