@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21de6a68.css",
+    "main.js": "/static/js/main.299633e5.js",
+    "static/media/banner-apropos.png": "/static/media/banner-apropos.cc7a05da2ad0e783537a.png",
+    "static/media/banner-home.png": "/static/media/banner-home.024f945a990ae17b81b7.png",
+    "static/media/logo-footer.svg": "/static/media/logo-footer.f6c4b0c1ffd055c1de6ac95399a6f336.svg",
+    "static/media/logo-kasa.svg": "/static/media/logo-kasa.3e4c432d7ff1ee4ae1aacb51708ee0c1.svg",
+    "index.html": "/index.html",
+    "static/media/down.svg": "/static/media/down.6be86a8ff7772b42b056a30c2d82b448.svg",
+    "static/media/next.svg": "/static/media/next.224e07798ade6bda6e2572adcd9fc9c3.svg",
+    "static/media/prev.svg": "/static/media/prev.e1c831f025531aaa34d3eb308a748ce2.svg",
+    "static/media/star.svg": "/static/media/star.06dccca447400012db124c595a41e219.svg",
+    "static/media/starFull.svg": "/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
+    "main.21de6a68.css.map": "/static/css/main.21de6a68.css.map",
+    "main.299633e5.js.map": "/static/js/main.299633e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21de6a68.css",
+    "static/js/main.299633e5.js"
+  ]
+}
