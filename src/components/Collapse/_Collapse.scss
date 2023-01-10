@@ -10,6 +10,10 @@
     border-radius: 5px;
     background-color: $primary;
     font-weight: 500;
+    @media (max-width: 668px) {
+      font-size: 13px;
+      line-height: 19px;
+    }
   }
   .dropdown-content {
     padding: 20px;
@@ -17,6 +21,10 @@
     background-color: $secondary;
     border-radius: 0 0 5px 5px;
     font-weight: 400;
+    @media (max-width: 668px) {
+      font-size: 12px;
+      line-height: 17px;
+    }
     ul {
       list-style: none;
     }

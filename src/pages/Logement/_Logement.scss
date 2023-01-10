@@ -12,10 +12,19 @@
       &-title {
         font-size: 36px;
         line-height: 51px;
+        margin-bottom: 10px;
+        @media (max-width: 668px) {
+          font-size: 18px;
+          line-height: 26px;
+        }
       }
       &-location {
         font-size: 18px;
         line-height: 26px;
+        @media (max-width: 668px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
     }
     .host {
@@ -46,17 +55,28 @@
           line-height: 26px;
           color: $primary;
           width: 65px;
+          @media (max-width: 668px) {
+            font-size: 12px;
+            line-height: 17px;
+          }
         }
         &__photo {
           width: 64px;
           height: 64px;
           border-radius: 50%;
+          @media (max-width: 668px) {
+            height: 32px;
+            width: 32px;
+          }
         }
       }
     }
   }
   .content {
     padding: 50px 0;
+    @media (max-width: 668px) {
+      padding: 20px 0;
+    }
     .container {
       display: flex;
       gap: 20px 60px;

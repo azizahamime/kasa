@@ -1,12 +1,15 @@
 header {
   padding: 40px 0;
+  @media (max-width: 668px) {
+    padding: 20px 0;
+  }
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     .logo {
       @media (max-width: 668px) {
-        width: 145px;
+        width: 140px;
       }
     }
 
@@ -24,7 +27,7 @@ header {
         padding: 10px;
       }
 
-      &:active,
+      &.active,
       &:hover {
         text-decoration: underline;
       }
