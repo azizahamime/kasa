@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kasa/static/css/main.21de6a68.css",
-    "main.js": "/kasa/static/js/main.7b976856.js",
-    "static/media/banner-apropos.png": "/kasa/static/media/banner-apropos.cc7a05da2ad0e783537a.png",
-    "static/media/banner-home.png": "/kasa/static/media/banner-home.024f945a990ae17b81b7.png",
-    "static/media/logo-footer.svg": "/kasa/static/media/logo-footer.f6c4b0c1ffd055c1de6ac95399a6f336.svg",
-    "static/media/logo-kasa.svg": "/kasa/static/media/logo-kasa.3e4c432d7ff1ee4ae1aacb51708ee0c1.svg",
-    "index.html": "/kasa/index.html",
-    "static/media/down.svg": "/kasa/static/media/down.6be86a8ff7772b42b056a30c2d82b448.svg",
-    "static/media/next.svg": "/kasa/static/media/next.224e07798ade6bda6e2572adcd9fc9c3.svg",
-    "static/media/prev.svg": "/kasa/static/media/prev.e1c831f025531aaa34d3eb308a748ce2.svg",
-    "static/media/star.svg": "/kasa/static/media/star.06dccca447400012db124c595a41e219.svg",
-    "static/media/starFull.svg": "/kasa/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
-    "main.21de6a68.css.map": "/kasa/static/css/main.21de6a68.css.map",
-    "main.7b976856.js.map": "/kasa/static/js/main.7b976856.js.map"
+    "main.css": "/azizahamime/kasa/static/css/main.2c3e8a42.css",
+    "main.js": "/azizahamime/kasa/static/js/main.7e083d44.js",
+    "static/media/banner-apropos.png": "/azizahamime/kasa/static/media/banner-apropos.cc7a05da2ad0e783537a.png",
+    "static/media/banner-home.png": "/azizahamime/kasa/static/media/banner-home.024f945a990ae17b81b7.png",
+    "static/media/logo-footer.svg": "/azizahamime/kasa/static/media/logo-footer.f6c4b0c1ffd055c1de6ac95399a6f336.svg",
+    "static/media/logo-kasa.svg": "/azizahamime/kasa/static/media/logo-kasa.3e4c432d7ff1ee4ae1aacb51708ee0c1.svg",
+    "index.html": "/azizahamime/kasa/index.html",
+    "static/media/down.svg": "/azizahamime/kasa/static/media/down.6be86a8ff7772b42b056a30c2d82b448.svg",
+    "static/media/next.svg": "/azizahamime/kasa/static/media/next.224e07798ade6bda6e2572adcd9fc9c3.svg",
+    "static/media/prev.svg": "/azizahamime/kasa/static/media/prev.e1c831f025531aaa34d3eb308a748ce2.svg",
+    "static/media/star.svg": "/azizahamime/kasa/static/media/star.06dccca447400012db124c595a41e219.svg",
+    "static/media/starFull.svg": "/azizahamime/kasa/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
+    "main.2c3e8a42.css.map": "/azizahamime/kasa/static/css/main.2c3e8a42.css.map",
+    "main.7e083d44.js.map": "/azizahamime/kasa/static/js/main.7e083d44.js.map"
   },
   "entrypoints": [
-    "static/css/main.21de6a68.css",
-    "static/js/main.7b976856.js"
+    "static/css/main.2c3e8a42.css",
+    "static/js/main.7e083d44.js"
   ]
 }
