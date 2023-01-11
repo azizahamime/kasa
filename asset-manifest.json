@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaa5c5b9.css",
-    "main.js": "/static/js/main.ade58c2c.js",
-    "static/media/banner-apropos.png": "/static/media/banner-apropos.cc7a05da2ad0e783537a.png",
-    "static/media/banner-home.png": "/static/media/banner-home.024f945a990ae17b81b7.png",
-    "static/media/logo-footer.svg": "/static/media/logo-footer.f6c4b0c1ffd055c1de6ac95399a6f336.svg",
-    "static/media/logo-kasa.svg": "/static/media/logo-kasa.3e4c432d7ff1ee4ae1aacb51708ee0c1.svg",
-    "index.html": "/index.html",
-    "static/media/down.svg": "/static/media/down.6be86a8ff7772b42b056a30c2d82b448.svg",
-    "static/media/next.svg": "/static/media/next.224e07798ade6bda6e2572adcd9fc9c3.svg",
-    "static/media/prev.svg": "/static/media/prev.e1c831f025531aaa34d3eb308a748ce2.svg",
-    "static/media/star.svg": "/static/media/star.06dccca447400012db124c595a41e219.svg",
-    "static/media/starFull.svg": "/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
-    "main.aaa5c5b9.css.map": "/static/css/main.aaa5c5b9.css.map",
-    "main.ade58c2c.js.map": "/static/js/main.ade58c2c.js.map"
+    "main.css": "/kasa/static/css/main.aaa5c5b9.css",
+    "main.js": "/kasa/static/js/main.53a1d2e5.js",
+    "static/media/banner-apropos.png": "/kasa/static/media/banner-apropos.cc7a05da2ad0e783537a.png",
+    "static/media/banner-home.png": "/kasa/static/media/banner-home.024f945a990ae17b81b7.png",
+    "static/media/logo-footer.svg": "/kasa/static/media/logo-footer.f6c4b0c1ffd055c1de6ac95399a6f336.svg",
+    "static/media/logo-kasa.svg": "/kasa/static/media/logo-kasa.3e4c432d7ff1ee4ae1aacb51708ee0c1.svg",
+    "index.html": "/kasa/index.html",
+    "static/media/down.svg": "/kasa/static/media/down.6be86a8ff7772b42b056a30c2d82b448.svg",
+    "static/media/next.svg": "/kasa/static/media/next.224e07798ade6bda6e2572adcd9fc9c3.svg",
+    "static/media/prev.svg": "/kasa/static/media/prev.e1c831f025531aaa34d3eb308a748ce2.svg",
+    "static/media/star.svg": "/kasa/static/media/star.06dccca447400012db124c595a41e219.svg",
+    "static/media/starFull.svg": "/kasa/static/media/starFull.325cf1d54d109e062e0d0468f6412f00.svg",
+    "main.aaa5c5b9.css.map": "/kasa/static/css/main.aaa5c5b9.css.map",
+    "main.53a1d2e5.js.map": "/kasa/static/js/main.53a1d2e5.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa5c5b9.css",
-    "static/js/main.ade58c2c.js"
+    "static/js/main.53a1d2e5.js"
   ]
 }
