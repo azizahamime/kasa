@@ -8,8 +8,6 @@ function Header() {
 		const elemActive = e.target;
 		elemActive.classList.add('active');
 		links.forEach(el => el !== elemActive ? el.classList.remove('active') : null);
-		console.log(e.target);
-
 	}
 	return (
 		<header>
