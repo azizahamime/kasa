@@ -16,8 +16,9 @@ function Routers() {
 	const [isLoading, setLoading] = useState(true);
 	useEffect(() => {
 		setLoading(true);
+		const url = process.env.PUBLIC_URL + '/logements.json';
 		axios
-			.get('/logements.json')
+			.get(url)
 			.then((res) => setData(res.data))
 			.catch((error) => setError(error))
 			.finally(() => setLoading(false));
